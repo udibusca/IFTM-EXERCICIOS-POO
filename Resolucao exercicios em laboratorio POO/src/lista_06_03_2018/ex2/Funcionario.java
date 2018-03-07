@@ -1,6 +1,6 @@
 package lista_06_03_2018.ex2;
 
-public class Funcionario extends Pessoa{
+public class Funcionario extends Pessoa {
 
 	private int matricula;
 	private double salario;
@@ -21,12 +21,12 @@ public class Funcionario extends Pessoa{
 		this.salario = salario;
 	}
 
-	public Funcionario(int matricula,double salario,String nome, String sobreNome) {
+	public Funcionario(int matricula, double salario, String nome, String sobreNome) {
 		super(nome, sobreNome);
 		this.matricula = matricula;
 		this.salario = salario;
 	}
-	
+
 	public void setSalario(int valor) {
 		if (valor > 0)
 			this.salario = valor;

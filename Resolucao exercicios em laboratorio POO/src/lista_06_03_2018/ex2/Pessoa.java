@@ -12,6 +12,6 @@ public class Pessoa {
 	}
 
 	public String getNomeCompleto() {
-		return nome +" "+ sobreNome;
+		return nome + " " + sobreNome;
 	}
 }

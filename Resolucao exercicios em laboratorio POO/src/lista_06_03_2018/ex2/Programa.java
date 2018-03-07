@@ -12,12 +12,10 @@ public class Programa {
 		System.out.println(pessoa2.getNomeCompleto());
 		System.out.println(pessoa3.getNomeCompleto());
 
-		
 		System.out.println("Informações da 2 pessoa");
 		System.out.println(pessoa2.getSalarioPrimeiraParcela());
 		System.out.println(pessoa2.getSalarioSegundaParcela());
 
-		
 		System.out.println("Informações da 3 pessoa");
 		System.out.println(pessoa3.getSalarioPrimeiraParcela());
 		System.out.println(pessoa3.getSalarioSegundaParcela());
