@@ -3,7 +3,11 @@ package lista_06_03_2018.ex3;
 public class Conta {
 	private double saldo;
 
+	public Conta() {}
+
 	public Conta(double saldo) {
+		super();
+		this.saldo = saldo;
 	}
 
 	public void setSaldo(double saldo) {

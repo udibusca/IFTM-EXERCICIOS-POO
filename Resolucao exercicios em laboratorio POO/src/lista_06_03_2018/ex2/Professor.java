@@ -8,7 +8,7 @@ public class Professor extends Funcionario {
 	}
 
 	public double getSalarioPrimeiraParcela() {
-		return this.getSalario();
+		return getSalario();
 	}
 
 	public double getSalarioSegundaParcela() {
