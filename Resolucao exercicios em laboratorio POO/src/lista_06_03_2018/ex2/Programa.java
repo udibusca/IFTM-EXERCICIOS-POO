@@ -2,6 +2,7 @@ package lista_06_03_2018.ex2;
 
 public class Programa {
 
+	// aula 06 - 03 -2018
 	public static void main(String[] args) {
 
 		Pessoa pessoa1 = new Pessoa("Joao", "Medeiros");
