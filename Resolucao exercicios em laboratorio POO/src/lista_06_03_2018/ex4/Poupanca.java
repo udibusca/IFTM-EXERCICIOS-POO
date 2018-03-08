@@ -1,4 +1,4 @@
-package lista_06_03_2018.ex3;
+package lista_06_03_2018.ex4;
 
 public class Poupanca extends Conta {
 
@@ -9,11 +9,13 @@ public class Poupanca extends Conta {
 		this.diaRendimento = diaRendimento;
 	}
 
+	public Poupanca() {	}
+
 	public void depositar(double valor) {
 		if (valor > 0) {
 			setSaldo(getSaldo()+valor);
 		} else {
-			System.out.println("Não pode ser negativo");
+			System.out.println("Não pode ser negativo "+Poupanca.class.getSimpleName()+" metodo depositar");
 		}
 	}	
 	
@@ -21,7 +23,7 @@ public class Poupanca extends Conta {
 		if (valor > 0) {
 		 setSaldo(getSaldo()-valor);
 		} else {
-			System.out.println("Não pode ser negativo");
+			System.out.println("Não pode ser negativo "+Poupanca.class.getSimpleName()+" metodo sacar");
 		}
 	}
 }

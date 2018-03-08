@@ -1,4 +1,4 @@
-package lista_06_03_2018.ex2;
+package lista_06_03_2018.ex3;
 
 //aula 06 - 03 -2018
 public class Professor extends Funcionario {

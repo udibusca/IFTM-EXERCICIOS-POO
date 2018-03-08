@@ -1,4 +1,4 @@
-package lista_06_03_2018.ex1;
+package lista_06_03_2018.ex2;
 
 public class Amigo extends Pessoa{
 

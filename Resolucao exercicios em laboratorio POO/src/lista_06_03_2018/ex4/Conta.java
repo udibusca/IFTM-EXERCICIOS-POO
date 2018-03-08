@@ -1,4 +1,4 @@
-package lista_06_03_2018.ex3;
+package lista_06_03_2018.ex4;
 
 public class Conta {
 	private double saldo;
@@ -14,7 +14,7 @@ public class Conta {
 		if (saldo > 0) {
 			this.saldo = saldo;
 		} else {
-			System.out.println("Não pode ser negativo");
+			System.out.println("Não pode ser negativo "+Conta.class.getSimpleName()+" metodo setSaldo");
 		}
 	}
 
@@ -23,14 +23,14 @@ public class Conta {
 	}
 
 	public void depositar(double valor) {
-		this.saldo = +valor;
+		this.saldo += valor;
 	}
 
 	public void sacar(double valor) {
 		if (saldo > 0) {
-			this.saldo = -valor;
+			this.saldo -= valor;
 		} else {
-			System.out.println("Não pode ser negativo");
+			System.out.println("Não pode ser negativo "+Conta.class.getSimpleName()+" metodo sacar");
 		}
 	}
 

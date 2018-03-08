@@ -1,18 +1,18 @@
 package lista_06_03_2018.ex2;
 
-// aula 06 - 03 -2018
+//aula 06 - 03 -2018
 public class Pessoa {
-
+	
 	private String nome;
-	private String sobreNome;
+	private char sexo;
+	private int idade;
+	
+	public Pessoa() {}
 
-	public Pessoa(String nome, String sobreNome) {
+	public Pessoa(String nome, char sexo, int idade) {
 		super();
 		this.nome = nome;
-		this.sobreNome = sobreNome;
-	}
-
-	public String getNomeCompleto() {
-		return nome + " " + sobreNome;
+		this.sexo = sexo;
+		this.idade = idade;
 	}
 }
