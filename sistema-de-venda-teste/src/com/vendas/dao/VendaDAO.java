@@ -1,13 +1,14 @@
 package com.vendas.dao;
 
-import com.vendas.to.ItemVenda;
-import com.vendas.to.Venda;
-import com.vendas.to.enums.Situacao;
 import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
+
+import com.vendas.model.ItemVenda;
+import com.vendas.model.Venda;
+import com.vendas.model.enums.Situacao;
 
 /**
  * Classe de acesso a dados da venda

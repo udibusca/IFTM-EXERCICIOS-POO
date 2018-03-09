@@ -1,4 +1,4 @@
-package com.vendas.to.enums;
+package com.vendas.model.enums;
 
 /**
  * Enumeração das possíveis situações de um registro

@@ -1,31 +1,26 @@
-package com.vendas.to;
-
-import java.util.Date;
+package com.vendas.model;
 
 /**
- * Classe contendo os dados do cliente
+ * Classe contendo os dados do fornecedor
  *
 * @autor Andre
  */
-public class Cliente {
+public class Fornecedor {
 
     private int codigo;
     private String nome;
-    private String cpf;
-    private Date dataNascimento;
+    private String cnpj;
 
-    public Cliente() {
+    public Fornecedor() {
         this.codigo = 0;
         this.nome = "";
-        this.cpf = "";
-        this.dataNascimento = new Date();
+        this.cnpj = "";
     }
 
-    public Cliente(int codigo) {
+    public Fornecedor(int codigo) {
         this.codigo = codigo;
         this.nome = "";
-        this.cpf = "";
-        this.dataNascimento = new Date();
+        this.cnpj = "";
     }
 
     public int getCodigo() {
@@ -44,20 +39,12 @@ public class Cliente {
         this.nome = nome;
     }
 
-    public String getCpf() {
-        return cpf;
+    public String getCnpj() {
+        return cnpj;
     }
 
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
-    }
-
-    public Date getDataNascimento() {
-        return dataNascimento;
-    }
-
-    public void setDataNascimento(Date dataNascimento) {
-        this.dataNascimento = dataNascimento;
+    public void setCnpj(String cnpj) {
+        this.cnpj = cnpj;
     }
 
     @Override
@@ -67,8 +54,8 @@ public class Cliente {
 
     @Override
     public boolean equals(Object o) {
-        if (o instanceof Cliente) {
-            Cliente c = (Cliente) o;
+        if (o instanceof Fornecedor) {
+            Fornecedor c = (Fornecedor) o;
             if (c.getCodigo() == this.getCodigo()) {
                 return true;
             }

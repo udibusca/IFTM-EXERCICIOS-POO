@@ -1,9 +1,10 @@
 package com.vendas.gui.tm;
 
-import com.vendas.to.ItemCompra;
 import java.text.NumberFormat;
 import java.util.List;
 import javax.swing.table.AbstractTableModel;
+
+import com.vendas.model.ItemCompra;
 
 /**
  * Classe que define o modelo para tabela contendo dados dos itens da compra

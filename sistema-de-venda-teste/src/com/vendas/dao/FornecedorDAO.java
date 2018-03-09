@@ -1,9 +1,10 @@
 package com.vendas.dao;
 
-import com.vendas.to.Fornecedor;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
+
+import com.vendas.model.Fornecedor;
 
 /**
  * Classe de acesso a dados do fornecedor

@@ -1,4 +1,4 @@
-package com.vendas.to;
+package com.vendas.model;
 
 /**
  * Classe de relação entre a venda e o produto

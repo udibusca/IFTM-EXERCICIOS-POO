@@ -3,11 +3,12 @@ package com.vendas.gui;
 import com.vendas.dao.CompraDAO;
 import com.vendas.gui.tm.CompraTableModel;
 import com.vendas.gui.tm.ItemCompraTableModel;
-import com.vendas.to.Compra;
-import com.vendas.to.Fornecedor;
-import com.vendas.to.ItemCompra;
-import com.vendas.to.Produto;
-import com.vendas.to.enums.Situacao;
+import com.vendas.model.Compra;
+import com.vendas.model.Fornecedor;
+import com.vendas.model.ItemCompra;
+import com.vendas.model.Produto;
+import com.vendas.model.enums.Situacao;
+
 import java.util.Date;
 import javax.swing.JOptionPane;
 

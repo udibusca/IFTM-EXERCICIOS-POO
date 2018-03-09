@@ -2,7 +2,8 @@ package com.vendas.gui;
 
 import com.vendas.dao.ClienteDAO;
 import com.vendas.gui.tm.ClienteTableModel;
-import com.vendas.to.Cliente;
+import com.vendas.model.Cliente;
+
 import javax.swing.JInternalFrame;
 import javax.swing.JOptionPane;
 import javax.swing.RowFilter;

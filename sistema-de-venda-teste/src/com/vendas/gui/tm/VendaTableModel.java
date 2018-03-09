@@ -1,10 +1,11 @@
 package com.vendas.gui.tm;
 
-import com.vendas.to.Venda;
 import java.text.NumberFormat;
 import java.text.SimpleDateFormat;
 import java.util.List;
 import javax.swing.table.AbstractTableModel;
+
+import com.vendas.model.Venda;
 
 /**
  * Classe que define o modelo para tabela contendo dados da venda

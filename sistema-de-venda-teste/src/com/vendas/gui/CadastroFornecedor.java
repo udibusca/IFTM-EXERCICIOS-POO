@@ -2,7 +2,8 @@ package com.vendas.gui;
 
 import com.vendas.dao.FornecedorDAO;
 import com.vendas.gui.tm.FornecedorTableModel;
-import com.vendas.to.Fornecedor;
+import com.vendas.model.Fornecedor;
+
 import javax.swing.JOptionPane;
 
 /**

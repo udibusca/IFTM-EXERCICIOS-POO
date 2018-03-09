@@ -1,38 +1,39 @@
-package com.vendas.to;
+package com.vendas.model;
 
-import com.vendas.to.enums.Situacao;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import com.vendas.model.enums.Situacao;
+
 /**
- * Classe contendo os dados da venda
+ * Classe contendo os dados da compra
  *
 * @autor Andre
  */
-public class Venda {
+public class Compra {
 
     private int codigo;
-    private Cliente cliente;
-    private Date dataVenda;
+    private Fornecedor fornecedor;
+    private Date dataCompra;
     private Double valorTotal;
     private Situacao situacao;
-    private List<ItemVenda> itens;
-    private List<ItemVenda> itensRemover;
+    private List<ItemCompra> itens;
+    private List<ItemCompra> itensRemover;
 
-    public Venda() {
+    public Compra() {
         this.codigo = 0;
-        this.cliente = new Cliente();
-        this.dataVenda = new Date();
+        this.fornecedor = new Fornecedor();
+        this.dataCompra = new Date();
         this.valorTotal = 0.0;
         this.itens = new ArrayList<>();
         this.itensRemover = new ArrayList<>();
     }
 
-    public Venda(int codigo) {
+    public Compra(int codigo) {
         this.codigo = codigo;
-        this.cliente = new Cliente();
-        this.dataVenda = new Date();
+        this.fornecedor = new Fornecedor();
+        this.dataCompra = new Date();
         this.valorTotal = 0.0;
         this.itens = new ArrayList<>();
         this.itensRemover = new ArrayList<>();
@@ -47,25 +48,25 @@ public class Venda {
         this.codigo = codigo;
     }
 
-    public Cliente getCliente() {
-        return cliente;
+    public Fornecedor getFornecedor() {
+        return fornecedor;
     }
 
-    public void setCliente(Cliente cliente) {
-        this.cliente = cliente;
+    public void setFornecedor(Fornecedor fornecedor) {
+        this.fornecedor = fornecedor;
     }
 
-    public Date getDataVenda() {
-        return dataVenda;
+    public Date getDataCompra() {
+        return dataCompra;
     }
 
-    public void setDataVenda(Date dataVenda) {
-        this.dataVenda = dataVenda;
+    public void setDataCompra(Date dataCompra) {
+        this.dataCompra = dataCompra;
     }
 
     public Double getValorTotal() {
         double total = 0;
-        for (ItemVenda iv : itens) {
+        for (ItemCompra iv : itens) {
             total += (iv.getValorUnitario() * iv.getQuantidade());
         }
         return total;
@@ -89,26 +90,32 @@ public class Venda {
         }
     }
 
-    public List<ItemVenda> getItens() {
+    public List<ItemCompra> getItens() {
         return itens;
     }
 
-    public List<ItemVenda> getItensRemover() {
+    public List<ItemCompra> getItensRemover() {
         return itensRemover;
     }
 
-    public void addItem(ItemVenda itemVenda) {
-        itens.add(itemVenda);
+    public void addItem(ItemCompra itemCompra) {
+        itens.add(itemCompra);
     }
 
-    public void removeItem(ItemVenda itemVenda) {
-        itens.remove(itemVenda);
-        if (itemVenda.getCodigo() != 0) {
-            itensRemover.add(itemVenda);
+    public void removeItem(ItemCompra itemCompra) {
+        itens.remove(itemCompra);
+        if (itemCompra.getCodigo() != 0) {
+            itensRemover.add(itemCompra);
         }
     }
 
     public int quantidadeItens() {
         return itens.size();
     }
+
+    @Override
+    public String toString() {
+        return String.valueOf(this.codigo);
+    }
+
 }

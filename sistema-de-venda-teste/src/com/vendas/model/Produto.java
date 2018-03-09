@@ -1,4 +1,4 @@
-package com.vendas.to;
+package com.vendas.model;
 
 /**
  * Classe contendo os dados do produto

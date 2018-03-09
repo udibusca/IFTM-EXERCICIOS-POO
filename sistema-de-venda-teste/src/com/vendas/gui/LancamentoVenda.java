@@ -4,11 +4,12 @@ import com.vendas.dao.ProdutoDAO;
 import com.vendas.dao.VendaDAO;
 import com.vendas.gui.tm.ItemVendaTableModel;
 import com.vendas.gui.tm.VendaTableModel;
-import com.vendas.to.Cliente;
-import com.vendas.to.ItemVenda;
-import com.vendas.to.Produto;
-import com.vendas.to.Venda;
-import com.vendas.to.enums.Situacao;
+import com.vendas.model.Cliente;
+import com.vendas.model.ItemVenda;
+import com.vendas.model.Produto;
+import com.vendas.model.Venda;
+import com.vendas.model.enums.Situacao;
+
 import java.util.Date;
 import javax.swing.JOptionPane;
 

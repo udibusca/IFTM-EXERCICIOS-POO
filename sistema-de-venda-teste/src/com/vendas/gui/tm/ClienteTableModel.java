@@ -1,8 +1,9 @@
 package com.vendas.gui.tm;
 
-import com.vendas.to.Cliente;
 import java.util.List;
 import javax.swing.table.AbstractTableModel;
+
+import com.vendas.model.Cliente;
 
 /**
  * Classe que define o modelo para tabela contendo dados do cliente

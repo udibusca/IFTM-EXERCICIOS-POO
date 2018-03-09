@@ -1,9 +1,10 @@
 package com.vendas.dao;
 
-import com.vendas.to.Produto;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
+
+import com.vendas.model.Produto;
 
 /**
  * Classe de acesso a dados do produto
