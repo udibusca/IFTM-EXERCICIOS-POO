@@ -14,6 +14,6 @@ public class Circulo implements FormaGeometrica {
 
     @Override
     public double calcularArea() {
-        return Math.PI * raio * raio;
+        return Math.PI *Math.pow(raio,2);
     }
 }
