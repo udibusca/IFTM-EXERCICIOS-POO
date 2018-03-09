@@ -8,7 +8,7 @@ import javax.swing.table.AbstractTableModel;
 /**
  * Classe que define o modelo para tabela contendo dados dos itens da compra
  *
- * @author Juliano
+* @autor Andre
  */
 public class ItemCompraTableModel extends AbstractTableModel {
 

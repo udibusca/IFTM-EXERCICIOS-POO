@@ -3,7 +3,7 @@ package com.vendas.gui;
 /**
  * Janela sobre a aplicação
  *
- * @author Juliano
+* @autor Andre
  */
 public class Sobre extends javax.swing.JDialog {
 

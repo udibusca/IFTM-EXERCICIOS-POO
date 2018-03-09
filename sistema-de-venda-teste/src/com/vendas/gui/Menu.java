@@ -3,7 +3,7 @@ package com.vendas.gui;
 /**
  * Janela menu da aplicação
  *
- * @author Juliano
+* @autor Andre
  */
 public class Menu extends javax.swing.JFrame {
 

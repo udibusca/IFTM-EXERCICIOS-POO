@@ -11,7 +11,7 @@ import javax.swing.table.TableRowSorter;
 /**
  * Janela de consulta a dados do cliente
  *
- * @author Juliano
+* @autor Andre
  */
 public class BuscaCliente extends javax.swing.JDialog {
 

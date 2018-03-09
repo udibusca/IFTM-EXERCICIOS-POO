@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 /**
  * Janela de cadastro de cliente
  *
- * @author Juliano
+* @autor Andre
  */
 public class CadastroCliente extends javax.swing.JInternalFrame {
 

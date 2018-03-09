@@ -3,7 +3,7 @@ package com.vendas.to;
 /**
  * Classe contendo os dados do fornecedor
  *
- * @author Juliano
+* @autor Andre
  */
 public class Fornecedor {
 

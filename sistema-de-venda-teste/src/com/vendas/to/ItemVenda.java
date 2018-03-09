@@ -3,7 +3,7 @@ package com.vendas.to;
 /**
  * Classe de relação entre a venda e o produto
  *
- * @author Juliano
+* @autor Andre
  */
 public class ItemVenda {
 

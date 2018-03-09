@@ -9,7 +9,7 @@ import java.util.ArrayList;
 /**
  * Classe de acesso a dados do cliente
  *
- * @author Juliano
+* @autor Andre
  */
 public class ClienteDAO implements IDAO<Cliente> {
 

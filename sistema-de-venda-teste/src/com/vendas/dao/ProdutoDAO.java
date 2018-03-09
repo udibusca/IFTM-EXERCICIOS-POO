@@ -8,7 +8,7 @@ import java.util.ArrayList;
 /**
  * Classe de acesso a dados do produto
  *
- * @author Juliano
+* @autor Andre
  */
 public class ProdutoDAO implements IDAO<Produto> {
 

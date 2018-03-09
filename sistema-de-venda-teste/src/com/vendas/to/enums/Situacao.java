@@ -3,7 +3,7 @@ package com.vendas.to.enums;
 /**
  * Enumeração das possíveis situações de um registro
  *
- * @author Juliano
+* @autor Andre
  */
 public enum Situacao {
 

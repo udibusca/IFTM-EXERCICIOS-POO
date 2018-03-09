@@ -7,7 +7,7 @@ import javax.swing.table.AbstractTableModel;
 /**
  * Classe que define o modelo para tabela contendo dados do fornecedor
  *
- * @author Juliano
+* @autor Andre
  */
 public class FornecedorTableModel extends AbstractTableModel {
 

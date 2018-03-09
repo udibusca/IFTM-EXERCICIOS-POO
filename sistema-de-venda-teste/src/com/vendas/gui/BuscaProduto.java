@@ -11,7 +11,7 @@ import javax.swing.table.TableRowSorter;
 /**
  * Janela de consulta a dados do produto
  *
- * @author Juliano
+* @autor Andre
  */
 public class BuscaProduto extends javax.swing.JDialog {
 
