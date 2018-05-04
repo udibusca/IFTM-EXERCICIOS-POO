@@ -21,8 +21,8 @@ public class mSistematico extends Amostrador {
 	int startingPoint = generator.nextInt(step);
 
 	// seleciona elementos em intervalo regular ‘step’
-	for(
-	int i = 0;i<tamanhoAmostra;i++)subConjunto[i]=populacaoOrdenada[startingPoint+(i*step)];
+	for(int i = 0;i<tamanhoAmostra;i++)
+		subConjunto[i]=populacaoOrdenada[startingPoint+(i*step)];
 
 	return subConjunto;
 }
